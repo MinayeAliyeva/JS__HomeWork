@@ -8,6 +8,14 @@ let val2 = Days(20);
 console.log(val2);
 let val3 = Days(65);
 console.log(val3);
+//1
+let frontEnd="Front-end Developer";
+let name2=" ";
+for(let i=0;i<frontEnd.length;i++){
+  name2+=frontEnd[i];
+  console.log(name2);
+}
+
 //3
 let sum;
 sum = 0;
@@ -44,7 +52,7 @@ for (let i = 17; i <= 30; i++) {
 }
 console.log(`Sum:${Sum}`);
 
-//6
+
 //7
 let power;
 power = 1;
