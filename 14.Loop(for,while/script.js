@@ -9,10 +9,10 @@ console.log(val2);
 let val3 = Days(65);
 console.log(val3);
 //1
-let frontEnd="Front-end Developer";
-let name2=" ";
-for(let i=0;i<frontEnd.length;i++){
-  name2+=frontEnd[i];
+let frontEnd = "Front-end Developer";
+let name2 = " ";
+for (let i = 0; i < frontEnd.length; i++) {
+  name2 += frontEnd[i];
   console.log(name2);
 }
 
@@ -23,7 +23,6 @@ for (let i = 0; i < 10; i++) {
   if (i % 2 == 0) {
     sum += i;
   }
- 
 }
 console.log(`Sum:${sum}`);
 //4
@@ -51,18 +50,28 @@ for (let i = 17; i <= 30; i++) {
   }
 }
 console.log(`Sum:${Sum}`);
-
+//6
+let i = 0;
+let sumEven = 0;
+let sumOdd = 0;
+while (i < 30) {
+  i++;
+  if (i % 2 == 0) {
+    sumEven += i;
+  } else {
+    sumOdd += i;
+  }
+}
+console.log(`The sum of even numbers:${sumEven}`);
+console.log(`The sum of odd numbers:${sumOdd}`);
+console.log(`The substract:${sumEven - sumOdd}`);
 
 //7
 let power;
 power = 1;
 for (i = 0; i <= 16; i++) {
   if (i % 2 == 0) {
-    power = 2**i;
+    power = 2 ** i;
     console.log(`Power:${power}`);
   }
 }
-
-
-
-
