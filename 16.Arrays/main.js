@@ -13,7 +13,7 @@ function avarageAge(array, number) {
   return sum/number;
 }
 console.log(avarageAge(ages, ages.length));
-//3. Using countries array console.log following result: 
+//3. Using countries array console.log following result:
 const countries = [
   "Albania",
   "Bolivia",
@@ -31,6 +31,18 @@ function changeName(array) {
  return array.map((item,index)=>`${index}.${item.toUpperCase().slice(0,3)}`)
 }
 console.log(changeName(countries))
+//4.Find the sum of all indexes of 7.
+let numbers = [
+  4, 5, 2, 1, 5, 2, 5, 3, 5, 6, 2, 1, 6, 2, 6, 2, 5, 3, 2, 7, 4, 6, 4, 5, 6, 2,
+  5, 6, 3, 7, 3, 7,
+];
+function sumOfindexes(array) {
+  let sum = 0;
+  array.map((element, index) =>
+    element === 7 ? console.log((sum += index)) : null
+  );
+}
+sumOfindexes(numbers);
 //5. Using todos array find all objects that completed property is "true".
 const todos = [
   {
@@ -85,3 +97,4 @@ function findTitleLength(array){
 
 }
 findTitleLength(todos);
+
