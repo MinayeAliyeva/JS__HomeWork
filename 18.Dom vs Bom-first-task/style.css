@@ -32,3 +32,13 @@
   outline: none;
   border: 1px solid red;
 }
+#input{
+  outline: none;
+  border: 1px solid red;
+}
+.btn{
+  background-color: blanchedalmond;
+  border: 1px solid blanchedalmond;
+  padding: 5px;
+  outline: none;
+}
