@@ -4,6 +4,8 @@ let stopBtn = document.querySelector(".stop");
 let increase = document.querySelector("#increase");
 let declaretment = document.querySelector("#declerement");
 let reset = document.querySelector("#reset");
+let counter=document.querySelector("#counter")
+console.log(counter);
 let count = 0;
 let interval;
 startBtn.addEventListener("click", function () {
