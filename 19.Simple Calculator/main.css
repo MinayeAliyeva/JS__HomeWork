@@ -1,0 +1,45 @@
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #2a5f84;
+    border-radius: 20px;
+    padding: 15px;
+  }
+  .container h1 {
+    text-align: center;
+  }
+  .container input {
+    padding: 8px;
+    outline: none;
+  }
+  .container button {
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .total {
+    border: 2px solid;
+    padding: 8px;
+    text-align: right;
+    font-size: 25px;
+    background-color: rgb(237, 237, 231);
+  }
+  .reset-hover:hover{
+    background-color: cornflowerblue;
+  }
+
+  @media only screen and (max-width:440px){
+    .values{
+        display:  flex;
+        flex-direction: column;
+        row-gap: 5px;
+        align-items: center;
+    }
+
+  }
