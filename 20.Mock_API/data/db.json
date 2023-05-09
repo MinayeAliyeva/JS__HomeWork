@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "firstName": "Nigar",
+      "lastName": "Atakishiyeva",
+      "score": 35,
+      "id": 6
+    },
+    {
+      "firstName": "Aysel",
+      "lastName": "Shukurova",
+      "score": 43,
+      "id": 7
+    },
+    {
+      "firstName": "Elnur",
+      "lastName": "Rusdemov",
+      "score": 43,
+      "id": 7
+    },
+    {
+      "firstName": "Emi Ortiz",
+      "lastName": "Battle",
+      "id": 8
+    },
+    {
+      "firstName": "Maile Harrell",
+      "lastName": "Mcconnell",
+      "id": 10
+    },
+    {
+      "firstName": "Anjolie Ford",
+      "lastName": "Nixon",
+      "id": 11
+    },
+    {
+      "firstName": "Samson Collins",
+      "lastName": "Graves",
+      "id": 12
+    },
+    {
+      "firstName": "Risa Miller",
+      "lastName": "Ellison",
+      "id": 13
+    },
+    {
+      "firstName": "Zeph Wynn",
+      "lastName": "Crawford",
+      "id": 14
+    },
+    {
+      "firstName": "jjjkjk",
+      "lastName": "mmk",
+      "id": 22
+    }
+  ]
+}
