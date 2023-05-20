@@ -36,5 +36,5 @@ form.addEventListener("submit", function (e) {
     },
     body: JSON.stringify(obj),
   });
-  window.location.href = "http://127.0.0.1:5501/20.Mock_API/index.html";
+  window.location="index.html";
 });
