@@ -1,37 +1,9 @@
 {
   "users": [
     {
-      "firstName": "Nigar",
-      "lastName": "Atakishiyeva",
-      "score": 35,
-      "id": 6
-    },
-    {
-      "firstName": "Aysel",
-      "lastName": "Shukurova",
-      "score": 43,
-      "id": 7
-    },
-    {
-      "firstName": "Elnur",
-      "lastName": "Rusdemov",
-      "score": 43,
-      "id": 7
-    },
-    {
-      "firstName": "Emi Ortiz",
-      "lastName": "Battle",
-      "id": 8
-    },
-    {
-      "firstName": "Maile Harrell",
-      "lastName": "Mcconnell",
+      "firstName": "Leroy Mccray",
+      "lastName": "Ramirez",
       "id": 10
-    },
-    {
-      "firstName": "Anjolie Ford",
-      "lastName": "Nixon",
-      "id": 11
     },
     {
       "firstName": "Samson Collins",

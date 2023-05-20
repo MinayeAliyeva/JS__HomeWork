@@ -1,5 +1,6 @@
 let row = document.querySelector(".row");
-let addButton = document.querySelector("button");
+let addButton = document.querySelector(" .btn-dark");
+
 addButton.addEventListener("click", function () {
   window.location.href = "http://127.0.0.1:5501/20.Mock_API/add.html";
 });
@@ -16,11 +17,17 @@ async function fillData() {
            </p>
            <p class="p2">${obj.lastName}</p></div>
               <div><i class="fa-solid fa-trash"  id="${obj.id}" onclick=deleteById(${obj.id})></i>
-              <i class="fa-solid fa-pen"></i></div>
+            <a href="edit.html?id=${obj.id}">  <i  class="fa-solid fa-pen editPen"></i></a></div>
             </div>
           </div>
         </div>
     `;
+    //edit
+    let editPen = document.querySelector(".editPen");
+    editPen.addEventListener("click",function(){
+      window.location="edit.html"
+    })
+ 
   });
 }
 fillData();
