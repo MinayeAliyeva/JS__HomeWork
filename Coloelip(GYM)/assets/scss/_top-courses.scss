@@ -1,0 +1,38 @@
+#top-courses {
+  padding: 40px 0;
+  .top-courses {
+    .top-side-courses {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 18px;
+    }
+  }
+  .card-course {
+    &:hover .img img {
+      transform: scale(1.1);
+    }
+    .img {
+      overflow: hidden;
+      img {
+        width: 100%;
+        transition: 0.5s;
+      }
+    }
+    .price-text {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      span {
+        color: rgb(255, 0, 0);
+        font-weight: 500;
+        font-size: 19px;
+      }
+      h5 {
+        font-weight: 600;
+      }
+    }
+  }
+}

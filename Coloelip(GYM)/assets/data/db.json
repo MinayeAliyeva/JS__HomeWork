@@ -1,0 +1,42 @@
+{
+  "cards": [
+    {
+      "title": "Alias modi voluptati",
+      "description": "Sequi quidem rerum v",
+      "img": "./assets/images/o2.png",
+      "id": 10
+    },
+    {
+      "title": "At sed ut omnis atqu",
+      "description": "Eveniet consequatur",
+      "img": "./assets/images/o3.png",
+      "id": 11
+    },
+    {
+      "title": "Aut saepe ab tempore",
+      "description": "Sunt obcaecati hic ",
+      "img": "./assets/images/o1.png",
+      "id": 12
+    },
+    {
+      "title": "Ex qui ducimus minu",
+      "description": "Aut doloremque repre",
+      "img": "./assets/images/o1.png",
+      "id": 13
+    }
+  ],
+  "favorites": [
+    {
+      "title": "Alias modi voluptati",
+      "description": "Sequi quidem rerum v",
+      "img": "./assets/images/o2.png",
+      "id": 10
+    },
+    {
+      "title": "At sed ut omnis atqu",
+      "description": "Eveniet consequatur",
+      "img": "./assets/images/o3.png",
+      "id": 11
+    }
+  ]
+}

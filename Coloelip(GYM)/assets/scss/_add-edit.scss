@@ -1,0 +1,28 @@
+header {
+  .header1 {
+    padding: 15px 0;
+    background-color: antiquewhite;
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      nav {
+        ul {
+          display: flex;
+          column-gap: 30px;
+          li {
+            a {
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+section{
+    .row{
+        margin-top: 7rem;
+    }
+}

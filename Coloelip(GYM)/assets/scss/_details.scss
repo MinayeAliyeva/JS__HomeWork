@@ -1,0 +1,51 @@
+header {
+  .header1 {
+    padding: 15px 0;
+    background-color: antiquewhite;
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      nav {
+        ul {
+          display: flex;
+          column-gap: 30px;
+          li {
+            a {
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+section {
+  .detCard {
+    width: 50%;
+    height: 50%;
+    padding: 20px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 18px;
+    box-shadow: 3px 4px 30px 10px rgb(255 0 0 /30%);
+    .text-side {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      h1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+      }
+      p {
+        font-size: 14px;
+        font-family: "Poppins", sans-serif;
+        color: grey;
+      }
+    }
+  }
+}

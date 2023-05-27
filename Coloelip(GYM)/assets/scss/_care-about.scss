@@ -1,0 +1,52 @@
+#care-about {
+  margin-top: 30px;
+  .top-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    h1 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+    }
+    p {
+      font-family: "Poppins", sans-serif;
+      color: gray;
+      font-weight: 300;
+    }
+  }
+  .card {
+    padding: 20px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 18px;
+    box-shadow: 3px 4px 30px 10px rgb(255 0 0 /30%);
+    .actions {
+      display: flex;
+      align-items: center;
+      column-gap: 25px;
+      a {
+        color: black;
+      }
+    }
+    .text-side {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      h1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+      }
+      p {
+        font-size: 14px;
+        font-family: "Poppins", sans-serif;
+        color: grey;
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+#basic-revalutions {
+  .row {
+    background-color: rgb(34, 34, 34);
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .texts {
+    h6 {
+      font-weight: 200;
+      color: rgba(255, 255, 255, 0.429);
+    }
+    h3 {
+      color: rgb(255, 0, 0);
+      font-weight: 500;
+      font-size: 36px;
+    }
+    p {
+      font-weight: 200;
+      color: rgba(255, 255, 255, 0.373);
+    }
+  }
+}
