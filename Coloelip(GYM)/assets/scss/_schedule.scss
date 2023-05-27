@@ -1,0 +1,37 @@
+#schedule {
+  padding: 34px 0;
+
+  .top-scheldure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p{
+        color: grey;
+    }
+  }
+  .schedule {
+    .table{
+        text-align: center;
+        thead{
+            background-color: rgb(233, 236, 239);
+            tr{
+                border-bottom: 1px solid rgba(233, 236, 239, 0.188);
+            }
+        }
+        tbody,tr,td{
+            border-top: none;
+            border: 1px solid;
+            tr{
+                transition: 0.7s;
+                &:hover{
+                    background-color: rgb(255, 0, 0);
+                }
+            }
+        }
+    }
+  }
+}
+
+
+///

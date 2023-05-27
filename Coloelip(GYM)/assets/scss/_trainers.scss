@@ -1,0 +1,9 @@
+#trainers{
+    height: 100vh;
+    .trainers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
